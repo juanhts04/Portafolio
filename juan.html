@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Juan Carlos">
+  <meta name="description" content="Pagina web de Juan Carlos">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+  <title>Juan Carlos | Desarrollo web</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="img/dd.svg">
+    <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- Bostrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+      <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+       <!-- Menu -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="img/dd.svg" width="50" alt="Logo">
+        </a>
+        <ul class="navbar-nav d-flex justify-contennt-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos-recientes">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#carta">Carta de recomendacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="CV/cv.html">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+    
+   <!-- Seccion Principal --> 
+    <section class="hero align-items-stretch">
+         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+          <img class="hero-imagen-desarrollador" src="img/person-check.svg" alt="Foto de Juan">
+            <h1>Hola, soy Juan Carlos</h1>
+            <h2>Desarrollo sitios web </h2>
+            <p>Estudiante de programación web.</p>
+         </div>
+
+         <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="img/hero-inferior.svg" alt="Laptop">
+         </div>
+
+    </section>
+
+    <!-- Seccion Juan Carlos --> 
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h3 class="seccion-titulo">Conoce a Juan Carlos</h3>
+        <p class="seccion-texto">I am a passionate and versatile web developer with experience in creating dynamic and functional applications and websites. My skill set includes a complete command of HTML, CSS, and JavaScript, as well as advanced experience in modern frameworks and libraries such as React. In addition, I have solid knowledge in backend programming using Java and Python, which allows me to approach development projects in a comprehensive and efficient manner. I also have experience in database management and administration using tools such as HeidiSQL and MySQL.</p>
+      </div>
+
+    </section>
+
+
+
+    <!-- Seccion Experiencia --> 
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+              <!-- Desarrollo Web -->
+              <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop-fill"></i>
+                    <p class="experiencia-titulo">Desarrollo web</p>
+                    <p>I have experience in web development using HTML, CSS, JavaScript and React. He created semantic HTML frameworks, designed responsive interfaces with CSS, and developed interactive applications with JavaScript. In React, he worked with functional and class components, hooks, state management with Context API and Redux, and libraries like React Router and Axios. 
+                    </p>
+                    <div class="badges-contenedor">
+                      <span class="badge text-bg-primary">HTML</span>
+                      <span class="badge text-bg-primary">CSS</span>
+                      <span class="badge text-bg-primary">JavaScript</span>
+                      <span class="badge text-bg-primary">React</span>
+                    </div>
+
+              </div>
+              <!-- Articulos -->
+               <div class="columna col-12 col-md-4">
+                <i class="bi bi-journal-check"></i>
+                    <p class="experiencia-titulo">Articulos</p>
+                    <p>Digital transformation in project management is a continuous journey that requires constant adaptation and learning. Technology will continue to evolve, and as professionals, we must be prepared to embrace these changes and use them to drive the success of our projects. The key is to maintain an open mindset, invest in training, and foster a culture of collaboration and innovation.</p>
+                    <div class="badges-contenedor">
+                      <span class="badge text-bg-primary">Escribir</span>
+                      <span class="badge text-bg-primary">Editar</span>
+                      <span class="badge text-bg-primary">Blog</span>
+                    </div>
+              </div>
+              <!-- Estudiantes -->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-emoji-laughing-fill"></i>
+                    <p class="experiencia-titulo">Estudiantes</p>
+                    <p>I am studying Systems Engineering. I love learning and improving my skills in the field of programming, web development and database.</p>
+                    <div class="badges-contenedor">
+                      <span class="badge text-bg-primary">Desarrollo web</span>
+                      <span class="badge text-bg-primary">Python</span>
+                      <span class="badge text-bg-primary">Java</span>
+                      <span class="badge text-bg-primary">SQL</span>
+                    </div>
+              </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Seccion Proyectos --> 
+     <section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo text-negro">Proyectos</h2>
+      <h3 class="seccion-descripcion">Algunos de mis proyectos</h3>
+      <!-- Seccion galeria de proyectos --> 
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4"> 
+            <div class="proyecto">
+                  <img src="img/a1.png" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Mi primer proyecto</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://facebook.com" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-facebook j"></i>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+                   <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4"> 
+            <div class="proyecto">
+                  <img src="img/a2.jpg" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Desarrollo web</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://facebook.com" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-facebook j"></i>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4"> 
+            <div class="proyecto">
+                  <img src="img/a3.jpg" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Internet de las cosas</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://facebook.com" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-facebook j"></i>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4"> 
+            <div class="proyecto">
+                  <img src="img/a4.jpg" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Bases de datos</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://facebook.com" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-facebook j"></i>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4"> 
+            <div class="proyecto">
+                  <img src="img/a5.png" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Reactv</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://facebook.com" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-facebook j"></i>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4"> 
+            <div class="proyecto">
+                  <img src="img/a6.jpg" alt="Proyecto 1">
+                  <div class="overlay">
+                    <p>Proyect fronentd and backend</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://facebook.com" target="_blank " rel="noopener noreferrer">
+                        <i class="bi bi-facebook j"></i>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+       
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-outline-info">
+        Ver más proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+     </section>
+
+     <!-- Seccion Articulos --> 
+
+     <section id="articulos" class="articulos justify-content-start">
+
+      <h2 class="seccion-titulo texto-negro" >Articulos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.youtube.com/watch?v=cqMfPS8jPys&list=PLhSj3UTs2_yVHt2DgHky_MzzRC58UHE4z" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Curso de html desde cero</li>
+          </a>
+          <a href="https://www.youtube.com/watch?v=24gNhTcy6pw&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEmTbR" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Curso de css desde cero</li>
+          </a>
+          <a href="https://www.youtube.com/watch?v=Eh-s-n_6zNQ&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Curso de JavaScript</li>
+          </a>
+          <a href="https://www.youtube.com/watch?v=L1oMLsiMusQ&list=PLyvsggKtwbLX9LrDnl1-K6QtYo7m0yXWB" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Curso de java</li>
+          </a>
+        </ul>
+      </div>
+                  
+                      
+     </section>
+
+     <!-- Seccion Carta de recomendacion -->
+
+     <section id="carta" class="carta">
+      <h2 class="seccion-titulo texto-negro">Carta de recomendacion</h2>
+      <p class="carta-descripcion">Estas son algunas personas que me recomiendan</p>
+
+      <!-- Carrusel de recomendaciones -->
+      <div id="recomendaciones-carrusel" class="carousel carousel-dark slide" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+             <div class="container">
+              <img class="recomendaciones-imagen rounded-circle " src="img/cliente3.svg" alt="Foto de xperson">
+              <p class="recomendaciones-texto">I am pleased to recommend Juan Carlos as an outstanding web developer and programmer. During his time working with Juan Carlos, he witnessed his exceptional ability to address and solve complex problems, his unwavering dedication to quality work, and his passion for developing innovative and efficient solutions.</p>
+              <div class="recomendaciones-info">
+                 <p class="cliente"> Profesor de programacion</p>
+                 <p>Gerente de figmas</p>
+               
+              </div>
+             </div>
+          </div>
+          <div class="carousel-item">
+            
+            <div class="container">
+              <img class="recomendaciones-imagen rounded-circle " src="img/cliente2.svg" alt="Foto de xperson">
+              <p class="recomendaciones-texto">I am pleased to recommend Juan Carlos as an outstanding web developer and programmer. During his time working with Juan Carlos, he witnessed his exceptional ability to address and solve complex problems, his unwavering dedication to quality work, and his passion for developing innovative and efficient solutions.</p>
+              <div class="recomendaciones-info">
+                 <p class="cliente"> Profesor de programacion</p>
+                 <p>Gerente de figmas</p>
+              </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+          
+            <div class="container">
+              <img class="recomendaciones-imagen rounded-circle " src="img/cliente3.svg" alt="Foto de xperson">
+              <p class="recomendaciones-texto">I am pleased to recommend Juan Carlos as an outstanding web developer and programmer. During his time working with Juan Carlos, he witnessed his exceptional ability to address and solve complex problems, his unwavering dedication to quality work, and his passion for developing innovative and efficient solutions.</p>
+              <div class="recomendaciones-info">
+                 <p class="cliente"> Profesor de programacion</p>
+                 <p>Gerente de figmas</p>
+               
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#recomendaciones-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#recomendaciones-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+
+     </section>
+  <br>
+  
+      <!-- Seccion de contacto -->
+
+      <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+
+          <div class="container text-center rectangulo d-flex justify-content-evenly">
+           <div class="row">
+              <div class="col-12 col-md-4 seccion-titulo">
+                  ¡Estoy listo para obrar! 
+              </div>
+              <div class="col-12 col-md-4 descripcion">
+                   Contactame por cualquiera de mis redes o por mi correo electronico
+              </div>
+              <div class="col-12 col-md-4">
+                     <a href="mailto:juancarloshts@hotmail.com">
+                     <button type="button">
+                        Contacto
+                        <i class="bi bi-envelope-check"></i>
+                     </button>
+                    </a>
+              </div>
+           </div>
+
+          </div>
+        </div>
+      </section>
+
+        <!-- Footer -->
+         <footer class="footer seccion-oscura d-flex flex-column align-items-center justify-contennt-center">
+          <img class="footer-logo" src="img/dd.svg" alt="Logo">
+          <p class="footer-texto text-center">Transformando ideas en experiencias digitales inolvidables.</p>
+          <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+             <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-facebook"></i>
+             </a>
+             <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-whatsapp"></i>
+             </a>
+             <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i>
+             </a>
+             <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-envelope-at-fill"></i>
+             </a>
+          </div>
+          <div class="derechos-reservados">© 2024 Juan Carlos. Todos los derechos reservados</div>
+         </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
